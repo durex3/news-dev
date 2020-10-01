@@ -1,0 +1,26 @@
+2020-09-30 00:12:32.021 [main] INFO  com.durex.user.UserApplication - Starting UserApplication on LAPTOP-EOPT9935 with PID 12692 (D:\project\Java\news-dev\news-dev-service-user\target\classes started by durex in D:\project\Java\news-dev)
+2020-09-30 00:12:32.024 [main] INFO  com.durex.user.UserApplication - The following profiles are active: dev
+2020-09-30 00:12:32.947 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.durex.user]' package. Please check your configuration.
+2020-09-30 00:12:33.309 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2020-09-30 00:12:33.316 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2020-09-30 00:12:33.318 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-30 00:12:33.318 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-09-30 00:12:33.440 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-30 00:12:33.440 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1329 ms
+2020-09-30 00:12:34.084 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:12:34.175 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-30 00:12:34.176 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-30 00:12:34.177 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-30 00:12:34.177 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-09-30 00:12:34.242 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-30 00:12:34.254 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-30 00:12:34.261 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-30 00:12:34.373 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2020-09-30 00:12:34.395 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2020-09-30 00:12:34.398 [main] INFO  com.durex.user.UserApplication - Started UserApplication in 2.951 seconds (JVM running for 4.727)
+2020-09-30 00:14:09.364 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-30 00:14:09.364 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-30 00:14:09.369 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-30 00:15:13.283 [http-nio-8003-exec-7] INFO  c.d.user.controller.HelloController - info: hello~
+2020-09-30 00:15:13.283 [http-nio-8003-exec-7] WARN  c.d.user.controller.HelloController - warn: hello~
+2020-09-30 00:15:13.283 [http-nio-8003-exec-7] ERROR c.d.user.controller.HelloController - error: hello~
